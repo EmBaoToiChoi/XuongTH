@@ -4698,6 +4698,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2520193651306192447, guid: 0d86f74eddcd44c64897723be6f015b6, type: 3}
+      propertyPath: speed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2520193651306192447, guid: 0d86f74eddcd44c64897723be6f015b6, type: 3}
       propertyPath: pointA
       value: 
       objectReference: {fileID: 745965698}
@@ -4765,6 +4769,18 @@ PrefabInstance:
     - target: {fileID: 2030282238506501432, guid: 6174e86f760da484ca094cf1d57526b4, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3188439048085375995, guid: 6174e86f760da484ca094cf1d57526b4, type: 3}
+      propertyPath: jumpForce
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3188439048085375995, guid: 6174e86f760da484ca094cf1d57526b4, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3188439048085375995, guid: 6174e86f760da484ca094cf1d57526b4, type: 3}
+      propertyPath: moveSpeed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4042473853972450503, guid: 6174e86f760da484ca094cf1d57526b4, type: 3}
       propertyPath: m_LocalPosition.x
